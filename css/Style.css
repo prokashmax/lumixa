@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Nunito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* header section */
+#header{
+    background: #ef8172;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+    background: rgba(255, 127, 80, 0.295);
+}
+.navbar-brand h2{
+    font-family: 'Nunito-Semi-Extra-Bold Italic', sans-serif;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+}
+.navbar-brand h2{
+    font-family: 'Kaushan Script', cursive;
+}
+#header-titel h2{
+    font-family: 'Nunito-Semi-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: ghostwhite;
+}
+.row{
+    margin: 0;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+#header-titel{
+    overflow: hidden;
+    position: relative;
+    padding-top: 100px;
+}
+#header-titel img{
+    height: 350px;
+    width: auto;
+    transform: rotate(30deg);
+    right: 30%;
+    bottom: -45%;
+    position: absolute;
+}
+/* feature-card */
+#feature .container-fluid{
+    padding:0 100px;
+    color: #fff;
+}
+.feature-card i{
+    color: #ef8172;
+    transition: 2s ease;
+}
+.feature-card{
+    background: rgba(7, 7, 7, 0.133);
+    padding: 30px;
+    box-shadow: 1px 3px 4px gray;
+}
+.feature-card h2{
+    font-family: 'Nunito-Semi-Black', sans-serif;
+    transition: 2s ease;
+    color: gray;
+    line-height: 1.5rem;
+}
+.feature-card:hover i , .feature-card:hover h2 {
+    color: rgb(132, 16, 199);
+}
+/* Testmonial section */
+#testmonial{
+    background: #ef8172;
+}
+#testmonial .box h2{
+    color: #fff;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin: 20px;
+}
+#testmonial .box{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 80px 250px;
+}
+#testmonial .box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 20px;
+}
+/* download section */
+#download{
+    background: #ef8172;
+}
+#download h2{
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+@media only screen and (max-width: 960px) {
+    
+    #feature .container-fluid{
+        padding:10px;
+        color: #fff;
+    }
+    #header-titel{
+        text-align: center;
+    }
+    #header-titel img{
+      position: static;
+      transform: rotate(0);
+    }
+    /* Testmonial section */
+    #testmonial .box{
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    #testmonial .box h2{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+  }
